@@ -43,5 +43,6 @@ MAPBOX_API=****************
 ## Requirements
 * Node.js
 ## Load
-Currently the web server isn't fully set up. For now, from the home directory, run
-> node src/app.js
+```bash 
+npm run start
+```
