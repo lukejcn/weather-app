@@ -51,4 +51,4 @@ npm run start
 ```bash
 npm run dev
 ```
-*This requires having **nodemon** installed `npm i -g nodemon`*
+*This requires having **nodemon** installed `npm i -g nodemon` (or locally with `npm i nodemon`)*
