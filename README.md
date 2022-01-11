@@ -42,7 +42,13 @@ MAPBOX_API=****************
 ```
 ## Requirements
 * Node.js
-## Load
+## Run
 ```bash 
 npm run start
 ```
+
+**Run in Development mode with nodemon**
+```bash
+npm run dev
+```
+*This requires having **nodemon** installed `npm i -g nodemon`*
