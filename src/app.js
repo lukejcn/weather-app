@@ -61,6 +61,13 @@ app.get('/weather', (req, res) => {
     })
 })
 
+app.get('/mylocationweather', (req, res) => {
+    weather(req.query.lat, req.query.lon, (e, cw) => {
+        if (e) { return res.send({ error: 'Location unknown' }) }
+        res.send({currentWeather: cw, location: 'Your current location'})
+    })
+})
+
 app.get('/products', (req, res) => {
     if (!req.query.search) {
         return res.send({
